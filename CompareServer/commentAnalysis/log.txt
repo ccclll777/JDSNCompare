@@ -1,0 +1,22 @@
+电脑很快就收到了，
+[pair('电脑', 'n'), pair('很快', 'd'), pair('就', 'd'), pair('收到', 'v'), pair('了', 'ul'), pair('，', 'x')]
+性价比不错，
+[pair('性价比', 'n'), pair('不错', 'a'), pair('，', 'x')]
+非常好用的一个电脑，
+[pair('非常好用', 'x'), pair('的', 'uj'), pair('一个', 'm'), pair('电脑', 'n'), pair('，', 'x')]
+整体效果也挺好，
+[pair('整体', 'n'), pair('效果', 'n'), pair('也', 'd'), pair('挺好', 'x'), pair('，', 'x')]
+颜值高！
+[pair('颜值高', 'x'), pair('！', 'x')]
+
+电脑很快就收到了，性价比不错，非常好用的一个电脑，整体效果也挺好，颜值高！
+Score:10.375
+Sub-clause0: positive:很快 
+Sub-clause1: positive:不错 
+Sub-clause2: positive:非常好用 
+Sub-clause3: conjunction:也 positive:挺好 
+Sub-clause4: positive:颜值高 punctuation:！ 
+{'score': 10.375, 'su-clause0': {'score': 1.75, 'positive': [{'key': '很快', 'adverb': [], 'denial': [], 'value': 1.75, 'score': 1.75}], 'negative': [], 'conjunction': [], 'punctuation': [], 'pattern': []}, 'su-clause1': {'score': 1.0, 'positive': [{'key': '不错', 'adverb': [], 'denial': [], 'value': 1.0, 'score': 1.0}], 'negative': [], 'conjunction': [], 'punctuation': [], 'pattern': []}, 'su-clause2': {'score': 2.0, 'positive': [{'key': '非常好用', 'adverb': [], 'denial': [], 'value': 2.0, 'score': 2.0}], 'negative': [], 'conjunction': [], 'punctuation': [], 'pattern': []}, 'su-clause3': {'score': 2.625, 'positive': [{'key': '挺好', 'adverb': [], 'denial': [], 'value': 1.75, 'score': 1.75}], 'negative': [], 'conjunction': [{'key': '也', 'value': 1.5}], 'punctuation': [], 'pattern': []}, 'su-clause4': {'score': 3.0, 'positive': [{'key': '颜值高', 'adverb': [], 'denial': [], 'value': 1.5, 'score': 1.5}], 'negative': [], 'conjunction': [], 'punctuation': [{'key': '！', 'value': 2.0}], 'pattern': []}}
+
+
+
