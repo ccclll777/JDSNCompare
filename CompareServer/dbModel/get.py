@@ -7,11 +7,11 @@ import MySQLdb
 class dbGet:
     def __init__(self):
         self.conn = MySQLdb.connect(
-            host='39.105.44.114',
+            host='xxxxxx',
             port=3306,
-            user='jd_sn_p',
-            passwd='jd_sn_p',
-            db='jd_sn_p',
+            user='xxxxx',
+            password='xxxxx',
+            db='xxxxx'
             charset='utf8'
         )
         self.cur = self.conn.cursor()

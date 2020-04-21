@@ -8,11 +8,11 @@ def read_data_jd(commodity_id):
     # 获取数据库链接
 
     connection = pymysql.connect(
-        host='39.105.44.114',
+        host='xxxxxx',
         port=3306,
-        user='jd_sn_p',
-        password='jd_sn_p',
-        db='jd_sn_p'
+        user='xxxxx',
+        password='xxxxx',
+        db='xxxxx'
     )
     try:
         # 获取会话指针
@@ -33,11 +33,11 @@ def read_data_sn(commodity_id):
     # 获取数据库链接
 
     connection = pymysql.connect(
-        host='39.105.44.114',
+        host='xxxxxx',
         port=3306,
-        user='jd_sn_p',
-        password='jd_sn_p',
-        db='jd_sn_p'
+        user='xxxxx',
+        password='xxxxx',
+        db='xxxxx'
     )
     try:
         # 获取会话指针
