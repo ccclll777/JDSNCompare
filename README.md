@@ -6,7 +6,6 @@
 
 # CompareWeb
 使用vue+iview实现
-实现了前端的展示 http://39.105.44.114:38888/comparePrice/index.html#/
 将京东苏宁的商品信息展示，可以进行相似商品的价格的对比 查看评论的情感分析结果，查看评论的词云
 
 
@@ -15,4 +14,5 @@
 使用django实现
 实现了后端的请求接口，实现了评论的情感分析（使用snownlp），以及词云的绘制 ，后期准备针对评论训练模型，实现情感的分类。
 
-详细数据库以及项目问题请联系sdu945860882@gmail.com
+# 详细介绍
+https://ccclll777.github.io/2020/05/28/Undergraduate-Curriculum-Design/CurriculumDesign-jdsnCompare/
